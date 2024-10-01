@@ -1,0 +1,22 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "\"this is a web socket tutorial\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "web",
+    "socket"
+  ],
+  "author": "Pavan Raghuwanshi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.7.5"
+  }
+}
